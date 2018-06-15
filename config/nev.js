@@ -23,8 +23,11 @@ module.exports = function(nev){
     transportOptions:{
       service:"Gmail",
       auth:{
-        user:'emorycoursecritique@gmail.com',
-        pass:'coursecritique1'
+        user:'jiaoshoushuo@gmail.com',
+        pass:'jiaoshoushuo1'
+      },
+      tls: {
+        rejectUnauthorized: false
       }
     },
     verifyMailOptions:{
