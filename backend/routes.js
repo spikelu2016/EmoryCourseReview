@@ -3,7 +3,7 @@ const router = express.Router();
 
 // YOUR API ROUTES HERE
 
-// SAMPLE ROUTE
+// SAMPLE ROUTES
 router.use('/users', (req, res) => {
     res.json({ success: true });
 });
