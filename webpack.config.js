@@ -10,12 +10,9 @@ module.exports = {
             { test: /\.js?$/, loader: 'babel-loader', exclude: /node_modules/ },
             { test: /\.s?css$/, loader: 'style-loader!css-loader!sass-loader' },
         ],
-        loaders: [
-          { test: /\.json$/, loader: 'json-loader' },
-        ]
     },
     resolve: {
-        extensions: ['.js', '.scss','.json']
+        extensions: ['.js', '.scss']
     },
     output: {
         path: path.join(__dirname, '/public'),

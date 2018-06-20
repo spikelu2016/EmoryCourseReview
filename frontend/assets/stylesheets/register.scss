@@ -22,10 +22,6 @@
   background-color: #002978;
 }
 
-.ui-autocomplete-category{
-  color:red;
-}
-
 .header-title-emory{
   font-weight:600;
   color: white;
@@ -238,15 +234,15 @@ fieldset, label { margin: 0; padding: 0; }
     cursor: pointer;
     border: 1px solid lightgray;
     box-sizing: border-box;
-
+    
     .dropdown-label, .dropdown-quantity {
         float: left;
     }
-
+    
     .dropdown-quantity {
         margin-left: 4px;
     }
-
+    
     .fa-filter {
         float: right;
     }
@@ -262,17 +258,17 @@ fieldset, label { margin: 0; padding: 0; }
     border-top: none;
     box-sizing: border-box;
     padding: 10px 12px;
-
+    
     input[type="search"] {
         padding: 5px 0;
     }
-
+    
     ul {
         margin: 10px 0;
         max-height: 200px;
         overflow-y: auto;
         position: relative;
-
+        
     }
     ul li {
 
